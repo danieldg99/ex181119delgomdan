@@ -42,8 +42,33 @@
     opacity: .5;
 }
 
+
+/* ---------------------------------------------------------------------- 
+ Sin flex */
+
 .delgomdan3contenedor {
     width: 50%;
+    height: 250px;
+    margin: 2em auto;
+    box-sizing: border-box;
+}
+
+.delgomdan3elemento {
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    height: 100%;
+    overflow: auto;
+}
+
+
+/* ---------------------------------------------------------------------- 
+ Con flex */
+
+
+/* .delgomdan3contenedor {
+    width: 50%;
+    height: 250px;
     margin: 2em auto;
     display: flex;
     box-sizing: border-box;
@@ -52,8 +77,14 @@
 .delgomdan3elemento {
     box-sizing: border-box;
     width: 50%;
-    margin: 5px;
 }
+
+.delgomdan3elemento:last-child {
+    display: flex;
+} */
+
+
+/* ----------------------------------------------------------------------*/
 
 .delgomdan3elemento p {
     padding: 0 5px;
@@ -61,8 +92,8 @@
 
 .delgomdan3elemento span {
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     background-color: yellow;
     box-sizing: border-box;
     border: 3px solid black;
@@ -70,12 +101,11 @@
     padding: 1%;
 }
 
-.delgomdan3elemento:last-child {
-    display: flex;
-}
-
 .delgomdan3caja {
-    width: 50%;
+    margin: 0;
+    float: left;
+    width: 33.3%;
+    height: 100%;
 }
 
 .delgomdan3elemento .delgomdan3caja:nth-child(1) {
