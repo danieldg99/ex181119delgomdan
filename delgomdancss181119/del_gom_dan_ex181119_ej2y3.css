@@ -77,6 +77,7 @@
 .delgomdan3elemento {
     box-sizing: border-box;
     width: 50%;
+    overflow: auto;
 }
 
 .delgomdan3elemento:last-child {
