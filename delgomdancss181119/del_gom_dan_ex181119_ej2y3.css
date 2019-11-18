@@ -41,3 +41,51 @@
 .delgomdan2contenedor img:hover {
     opacity: .5;
 }
+
+.delgomdan3contenedor {
+    width: 50%;
+    margin: 2em auto;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.delgomdan3elemento {
+    box-sizing: border-box;
+    width: 50%;
+    margin: 5px;
+}
+
+.delgomdan3elemento p {
+    padding: 0 5px;
+}
+
+.delgomdan3elemento span {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    box-sizing: border-box;
+    border: 3px solid black;
+    margin: 0 1px;
+    padding: 1%;
+}
+
+.delgomdan3elemento:last-child {
+    display: flex;
+}
+
+.delgomdan3caja {
+    width: 50%;
+}
+
+.delgomdan3elemento .delgomdan3caja:nth-child(1) {
+    background-color: dimgray;
+}
+
+.delgomdan3elemento .delgomdan3caja:nth-child(2) {
+    background-color: gray;
+}
+
+.delgomdan3elemento .delgomdan3caja:nth-child(3) {
+    background-color: lightgray;
+}
