@@ -61,6 +61,13 @@
     overflow: auto;
 }
 
+.delgomdan3caja {
+    margin: 0;
+    float: left;
+    width: 33.3%;
+    height: 100%;
+}
+
 
 /* ---------------------------------------------------------------------- 
  Con flex */
@@ -76,12 +83,17 @@
 
 .delgomdan3elemento {
     box-sizing: border-box;
+    overflow: auto;
     width: 50%;
     overflow: auto;
 }
 
 .delgomdan3elemento:last-child {
     display: flex;
+}
+
+.delgomdan3caja {
+    width: 50%;
 } */
 
 
@@ -100,13 +112,6 @@
     border: 3px solid black;
     margin: 0 1px;
     padding: 1%;
-}
-
-.delgomdan3caja {
-    margin: 0;
-    float: left;
-    width: 33.3%;
-    height: 100%;
 }
 
 .delgomdan3elemento .delgomdan3caja:nth-child(1) {
