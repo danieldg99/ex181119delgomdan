@@ -1,0 +1,43 @@
+.delgomdan2menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    background-color: darkslategray;
+}
+
+.delgomdan2menu li {
+    float: left;
+}
+
+.delgomdan2menu li a {
+    display: block;
+    padding: 14px 10px;
+    background-color: darkslategray;
+    color: white;
+    text-decoration: none;
+}
+
+.delgomdan2menu li a.delgomdan2activo {
+    background-color: lightblue;
+}
+
+.delgomdan2menu li a:hover:not(.delgomdan2activo) {
+    background-color: darkgray;
+}
+
+.delgomdan2contenedor {
+    box-sizing: border-box;
+}
+
+.delgomdan2contenedor img {
+    float: left;
+    height: 100%;
+    width: 31%;
+    margin: 1%;
+}
+
+.delgomdan2contenedor img:hover {
+    opacity: .5;
+}
